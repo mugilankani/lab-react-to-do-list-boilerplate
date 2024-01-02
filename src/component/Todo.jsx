@@ -40,7 +40,7 @@ class Todo extends Component {
         let modifiedString =prompt('Enter new data')
         if(modifiedString !==null){
             let newdata = this.state.todos
-            newdata[e] = modifiedStringc.trim();
+            newdata[e] = modifiedString .trim();
             this.setState(()=>{
                 return { todos : newdata}
 
